@@ -1,0 +1,31 @@
+{
+  "name": "lfsz-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "lf": "bin/lf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FFSZ-5/lfsz-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FFSZ-5/lfsz-cli/issues"
+  },
+  "homepage": "https://github.com/FFSZ-5/lfsz-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.4.1",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.0.0",
+    "log-symbols": "^4.1.0",
+    "ora": "^5.4.1"
+  }
+}
